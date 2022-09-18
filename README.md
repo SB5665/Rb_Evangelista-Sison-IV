@@ -1,6 +1,6 @@
 # Rb_Evangelista-Sison-IV
 
-Title: HoloTips: Into The Rabbit Hole
+Title: HoloGuide: Into The Rabbit Hole
 
 Homepage Description: This website is a guide to Hololive, an idol VTuber company created to provide a source of entertainment on YouTube. Before an explanation on the website, it would also be better to explain what a VTuber is first. The word VTuber stems from the phrase "Virtual Youtuber", where people use computer softwares to  act as a virtual model which captures their face and traces it to the model.
 
