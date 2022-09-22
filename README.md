@@ -11,6 +11,6 @@ The About Us page will explain what Hololive is and what is the purpose of the s
 
 The Talent page will give the grasp on the many talents that can be found in Hololive.
 
-The Time line page will be a time line of events starting from the founding of the comapny to recent events.
+The Time line page will be a time line of events starting from the founding of the company to recent events.
 
 The Music page will be filled with albums and covers that the idols have created.
