@@ -1,0 +1,17 @@
+h1 {
+  color: #73ddef;
+  font-size: 80px;
+  margin: 0px;
+  text-align: center;
+}
+
+.Nav-bar {
+  font-size: 25px;
+  margin: 10px;
+  text-align: center;
+}
+
+* {
+
+  background-color:beige;
+}
