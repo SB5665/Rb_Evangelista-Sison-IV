@@ -2,6 +2,7 @@
 
 
 
+
 h1#site_info{
   font-family: "Work Sans", sans-serif;
   color: #323940;
@@ -39,13 +40,22 @@ h1 p {
 
 body.Home {
 
-  height: 100%;
-  background-image: url(images/Hololive.full.2803503.png);
-  background-size:  75%;                      
-  background-repeat:   no-repeat;
-  background-position: 225px 190px;  
-  
+  height: auto;
+  background-image: url(images/Hololive_Background_image.png);
+  background-size: cover;                      
+  background-repeat:no-repeat;
+  background-position:top;
+
+
 }
+
+body.talent_page, body.about_us {
+  
+  background-image: url(images/blueholo_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
  
 li, a {
 
@@ -63,6 +73,7 @@ header {
     justify-content: space-between;
     align-items: top center;
     padding: 15px ;
+    
  }
 
  .logo {
@@ -87,13 +98,77 @@ header {
 
  }
 
- .nav-bar li a {
+ .nav-bar li a, th a {
 
   transition: all 0.3s ease 0s;
 
  }
 
- .nav-bar li a:hover {
+ .nav-bar li a:hover, th a:hover {
 
   color: #73ddef;
+
  }
+
+ img#Gen0 {
+
+  
+  border: 5px solid #73ddef;
+  padding: 15px;
+  width: 250px;
+  height: 250px;
+    
+}
+p.Talents {
+  border: 5px solid #73ddef;
+  padding: 15px;
+  width: 250px;
+  height: 500px;
+  font-family: "Work Sans", sans-serif;
+  color: #323940;
+
+}
+
+div.talents > div {
+
+  display: inline-table;
+
+}
+
+div.talents {
+
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+#sora,#azki,#roboco,#miko,#suisei {
+
+  margin: 10px;
+  padding: 5px;
+}
+
+table {
+
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+
+}
+th {
+  
+  border: black;
+  border-style: solid;
+  border-radius: 25px;
+  width: 150px;
+  
+}
+
+h2 {
+
+  color: #fce100;
+  font-weight: 500;
+  font-size: 100px;
+  text-align: center;
+}
