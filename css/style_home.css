@@ -1,0 +1,119 @@
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+ul.home-section {
+    display: block;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+div.video-section1A{
+    background-color: green;
+    opacity: 0.5;
+    width: 100%;
+    height: 600px;
+}
+
+div.aboutus-section2A{
+    background-color: blue;
+    opacity: 0.5;
+    width: 100%;
+    height: 600px;
+}
+
+div.talents-section3A{
+    background-color: red;
+    opacity: 0.5;
+    width: 100%;
+    height: 600px;
+}
+
+div.social-media-section4A{
+    background-color: transparent;
+    opacity: 1;
+    width: 100%;
+    height: 600px;
+}
+
+
+h3 {
+    margin: 0px;
+    color: purple;
+}
+
+.Twitter {
+
+    background: url(../images/spritesheet.png) no-repeat 0 -12px;
+    width: 128px;
+    height: 128px;
+    background-position: -143px -143px;
+    position: absolute;
+    margin: 150px 1300px;
+
+}
+
+.Youtube {
+
+    background: url(../images/spritesheet.png) no-repeat 0 -19px;
+    width: 128px;
+    height: 128px;
+    background-position: -281px -5px;
+    position: absolute;
+    margin: 150px 1100px;
+
+}
+
+.Reddit {
+
+    background: url(../images/spritesheet.png) no-repeat 0 0;
+    width: 128px;
+    height: 128px;
+    background-position: -143px -5px;
+    position: absolute;
+    margin: 150px 900px;
+
+}
+
+.Facebook {
+
+    background: url(../images/spritesheet.png) no-repeat 0 0;
+    width: 128px;
+    height: 128px;
+    background-position: -5px -5px;
+    position: absolute;
+    margin: 150px 500px;
+
+    
+
+}
+
+.Fanclub {
+
+    background: url(../images/spritesheet.png) no-repeat 0 0;
+    width: 128px;
+    height: 128px;
+    background-position: -5px -143px;
+    position: absolute;
+    margin: 150px 700px;
+    
+
+}
+
+#Social-Title {
+    color:  #73ddef;
+    text-align: center;
+}
+
+#Social-Text {
+    text-align: center;
+    padding: 0px 150px;
+}
+
+nav a:hover {
+    transform: scale(1.5);
+    transition-duration: 300ms;
+}

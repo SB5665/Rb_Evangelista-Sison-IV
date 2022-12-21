@@ -38,16 +38,6 @@ h1 p {
   margin-right: 20%;
 }
 
-body.Home {
-
-  height: auto;
-  background-image: url(../images/Hololive_Background_image.png);
-  background-size: cover;                      
-  background-repeat:no-repeat;
-  background-position:top;
-
-
-}
 
 body.talent_page, body.about_us {
   
