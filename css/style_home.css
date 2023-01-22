@@ -12,31 +12,54 @@ ul.home-section {
 }
 
 div.video-section1A{
-    background-color: green;
-    opacity: 0.5;
-    width: 100%;
-    height: 600px;
-}
-
-div.aboutus-section2A{
-    background-color: blue;
-    opacity: 0.5;
-    width: 100%;
-    height: 600px;
-}
-
-div.talents-section3A{
-    background-color: red;
-    opacity: 0.5;
-    width: 100%;
-    height: 600px;
-}
-
-div.social-media-section4A{
     background-color: transparent;
     opacity: 1;
     width: 100%;
     height: 600px;
+    overflow: hidden;
+
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; 
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: -20%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.75;
+    overflow: hidden;
+}
+
+div.aboutus-section2A{
+    background-color: #5ad9f0;
+    opacity: 1;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+div.talents-section3A{
+    background-color: white;
+    opacity: 1;
+    width: 100%;
+    height: 600px;
+    
+}
+
+div.social-media-section4A{
+    background-color: #b9effa;
+    opacity: 1;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
 }
 
 
@@ -52,8 +75,6 @@ h3 {
     height: 128px;
     background-position: -143px -143px;
     position: absolute;
-    margin: 150px 1300px;
-
 }
 
 .Youtube {
@@ -63,8 +84,6 @@ h3 {
     height: 128px;
     background-position: -281px -5px;
     position: absolute;
-    margin: 150px 1100px;
-
 }
 
 .Reddit {
@@ -74,37 +93,41 @@ h3 {
     height: 128px;
     background-position: -143px -5px;
     position: absolute;
-    margin: 150px 900px;
-
 }
 
 .Facebook {
 
-    background: url(../images/spritesheet.png) no-repeat 0 0;
+    background: url(../images/spritesheet.png) no-repeat -5px -5px;
     width: 128px;
     height: 128px;
-    background-position: -5px -5px;
     position: absolute;
-    margin: 150px 500px;
-
-    
-
 }
 
 .Fanclub {
 
-    background: url(../images/spritesheet.png) no-repeat 0 0;
+    background: url(../images/spritesheet.png) no-repeat -5px -143px;
     width: 128px;
     height: 128px;
-    background-position: -5px -143px;
     position: absolute;
-    margin: 150px 700px;
-    
+}
 
+.image-links {
+    text-align: center;
+
+}
+.image-sprites {
+    display: inline-block;
+    width: 960px;
+}
+
+.image-sprites > div {
+    display: inline-block;
+    position: relative;
+    padding-right: 175px;
 }
 
 #Social-Title {
-    color:  #73ddef;
+    color:  #00d9ff;
     text-align: center;
 }
 
@@ -114,6 +137,49 @@ h3 {
 }
 
 nav a:hover {
-    transform: scale(1.5);
-    transition-duration: 300ms;
+    transform: scale(1.3);
+    transition-duration: 750ms;
 }
+
+
+.about-me-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 20px;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    background-color: transparent; 
+    color: white;
+    text-align: center;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+  }
+
+  .talents-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    border-style: none;
+    font-size: 20px;
+    background-color: #92d2de; 
+    color: white;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+  
+    }
+
+  .about-me-button:hover {
+    width: 160px;
+    height: 55px;
+  
+  }
+
+  .talents-button:hover {
+    width: 160px;
+    height: 55px;
+    background-color: #a2f1ff;
+  
+  }
+
+  
