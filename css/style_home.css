@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
 body, html {
     margin: 0px;
     padding: 0px;
@@ -156,7 +158,28 @@ nav a:hover {
     transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
   }
 
-  .talents-button {
+
+.about-me-button:hover {
+    width: 155px;
+    height: 55px;
+      
+}
+
+ #button-about {
+    position: relative;
+    top: -40%;
+    left: 60%;
+    }
+
+#aboutus-text {
+    position: relative;
+    top: 30%;
+    left: 44.5%;
+    color: white;
+    font-size: 50px;
+}
+
+.talents-button {
     width: 150px;
     height: 50px;
     border-radius: 25px;
@@ -166,20 +189,54 @@ nav a:hover {
     color: white;
     text-align: center;
     transition: 0.3s ease-in-out;
-  
-    }
-
-  .about-me-button:hover {
-    width: 160px;
-    height: 55px;
-  
+}
+    
+  #button-talents {
+    position: relative;
+    top: 65%;
+    left: -25%;
   }
 
+
   .talents-button:hover {
-    width: 160px;
+    width: 155px;
     height: 55px;
     background-color: #a2f1ff;
   
   }
+
+  #talent-text {
+    position: relative;
+    color: #00d1f5;
+    font-size: 50px;
+    top: 30%;
+  }
+
+  #logo-main {
+    top: -20%;
+    position: relative;
+  }
+
+  #logo-main img {
+    width: 600px;
+  }
+
+  .talents-section3A div {
+    float: right;
+
+  }
+
+.text-video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    color: white;
+    font-family: "Work Sans", sans-serif;
+
+}
+
+
 
   

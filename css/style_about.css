@@ -1,0 +1,12 @@
+.reference-link{
+    font-size: 50px; 
+    margin: 15px;
+    transition: 150ms;
+    left: 43%;
+    position: relative;
+
+}
+
+.reference-link:hover {
+    color: #67e8ff;
+}
